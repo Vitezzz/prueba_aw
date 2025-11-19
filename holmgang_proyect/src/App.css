@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.reportes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reporte {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.reporte h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.reporte p {
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.reporte img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.reporte small {
+  color: #999;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.reporte button {
+  background: #dc3545;
+  padding: 8px 15px;
+  font-size: 12px;
+}
+
+.reporte button:hover {
+  background: #c82333;
+}
+form h2 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 18px;
+}
+
+.imagen-actual {
+  color: #666;
+  font-size: 12px;
+  margin: -5px 0 10px 0;
+}
+
+.botones {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-cancelar {
+  background: #6c757d;
+}
+
+.btn-cancelar:hover {
+  background: #5a6268;
+}
+
+.acciones {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-editar {
+  background: #28a745;
+}
+
+.btn-editar:hover {
+  background: #218838;
+}
